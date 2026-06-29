@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Информация о приложении -->
+		<AssemblyName>SoundMixerPro</AssemblyName>
+		<RootNamespace>SoundMixer.App</RootNamespace>
+		<Product>SoundMixer Pro</Product>
+		<Company>SoundMixer</Company>
+		<Authors>SoundMixer</Authors>
+		<Description>Virtual microphone mixer with soundboard</Description>
+		<Copyright>Copyright © 2024</Copyright>
+
+		<!-- Версия -->
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+
+		<!-- Иконка -->
+		<ApplicationIcon>Resources\Icons\app.ico</ApplicationIcon>
+
+		<!-- Публикация как один файл -->
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PublishTrimmed>false</PublishTrimmed>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+
+		<!-- Убираем консольное окно -->
+		<DisableWinExeOutputInference>false</DisableWinExeOutputInference>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SoundMixer.Core\SoundMixer.Core.csproj" />
+	</ItemGroup>
+
+	<!-- Иконка как ресурс -->
+	<ItemGroup>
+		<Resource Include="Resources\Icons\app.ico" />
+	</ItemGroup>
+
+</Project>

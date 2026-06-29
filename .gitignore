@@ -1,0 +1,37 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+
+## Build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+
+## NuGet
+*.nupkg
+**/packages/*
+project.lock.json
+artifacts/
+
+## IDE
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Publish profiles
+*.pubxml
+!**/PublishProfiles/*.pubxml
+
+## Test results
+[Tt]est[Rr]esult*/

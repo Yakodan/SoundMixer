@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <SolidColorBrush x:Key="WindowBackground" Color="#FF1E1E2E" />
+    <SolidColorBrush x:Key="PanelBackground" Color="#FF2D2D44" />
+    <SolidColorBrush x:Key="CardBackground" Color="#FF2D2D44" />
+    <SolidColorBrush x:Key="InputBackground" Color="#FF3D3D54" />
+    <SolidColorBrush x:Key="BorderColor" Color="#FF3D3D54" />
+    <SolidColorBrush x:Key="ComboBoxBackground" Color="#FF3D3D54" />
+    <SolidColorBrush x:Key="ComboBoxForeground" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="ComboBoxDropdownBackground" Color="#FF2D2D44" />
+    <SolidColorBrush x:Key="ComboBoxHoverBackground" Color="#FF4D4D6A" />
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#FF1DB954" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#FF6C63FF" />
+    <SolidColorBrush x:Key="DangerBrush" Color="#FFFF4757" />
+
+    <SolidColorBrush x:Key="TextPrimary" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="TextSecondary" Color="#FFB0B0C0" />
+    <SolidColorBrush x:Key="TextMuted" Color="#FF808090" />
+    <SolidColorBrush x:Key="TextOnAccent" Color="#FFFFFFFF" />
+
+    <SolidColorBrush x:Key="LevelBarBackground" Color="#FF1A1A2E" />
+    <SolidColorBrush x:Key="LevelBarInput" Color="#FF1DB954" />
+    <SolidColorBrush x:Key="LevelBarOutput" Color="#FF6C63FF" />
+
+    <SolidColorBrush x:Key="EmojiButtonBackground" Color="#33FFFFFF" />
+    <SolidColorBrush x:Key="ToolButtonBackground" Color="#FF2D2D44" />
+    <SolidColorBrush x:Key="DeleteButtonBackground" Color="#44FF4757" />
+    <SolidColorBrush x:Key="SeparatorBrush" Color="#FF3D3D54" />
+    <SolidColorBrush x:Key="ClipPlayingBrush" Color="#FF1DB954" />
+    <SolidColorBrush x:Key="ClipStoppedBrush" Color="#FF6C63FF" />
+
+    <SolidColorBrush x:Key="ScrollBarBackground" Color="#FF1E1E2E" />
+    <SolidColorBrush x:Key="ScrollBarThumb" Color="#FF4D4D6A" />
+
+    <system:String x:Key="ThemeName">Dark Purple</system:String>
+</ResourceDictionary>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SoundMixer.App/SoundMixer.App.csproj" />
+  <Project Path="SoundMixer.Core/SoundMixer.Core.csproj" />
+</Solution>
